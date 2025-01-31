@@ -93,7 +93,7 @@ tk.Button(btn_frame, text="История", command=show_history, width=btn_widt
 tk.Button(btn_frame, text="Удалить историю", command=clear_history, width=btn_width).grid(row=1, column=1, pady=5)
 
 # Результат
-result_label = tk.Label(root, text="Результат:", font=("Arial", 12, "bold"))
+result_label = tk.Label(root, text="Результат:", font=("Arial", 14, "bold"))
 result_label.grid(row=4, column=0, columnspan=2, pady=10)
 
 # Привязка Enter к вычислению
